@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color:white;
+}
+img{
+    height:150px;
+    width:180px;
+    position: flex;
+    float:right;
+
+}
+iframe{
+    height:150px;
+    width:150px;
+    border: 2px;
+    padding: 1%;
+}
+header{
+    text-align: right;
+    color:yellow;
+}
+footer{
+    text-align: right;
+    color:red;
+}
+    h1{
+        text-align: center;
+        color:orange;
+    }
+    p{
+        color:salmon;
+        font-size: large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .colunas{
+        display:flex;
+        flex-wrap: wrap;
+    }
+      .coluna{
+        padding: 1em 1em;
+      }
+      button{
+        color:white;
+        background-color:red;
+      }
+      button:hover{
+        color:red;
+        background-color: white;
+
+      }
